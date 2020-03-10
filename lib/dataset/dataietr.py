@@ -226,8 +226,8 @@ class FaceKeypointDataIter():
         ann_info = data_info(im_root_path, ann_file)
         all_samples = ann_info.get_all_sample()
         self.raw_data_set_size=len(all_samples)
-        # balanced_samples = self.balance(all_samples)
-        return all_samples
+        balanced_samples = self.balance(all_samples)
+        return balanced_samples
 
     def augmentationCropImage(self,img, bbox, joints=None, is_training=True):
 
