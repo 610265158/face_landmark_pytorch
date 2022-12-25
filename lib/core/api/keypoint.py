@@ -4,7 +4,7 @@ import cv2
 import numpy as np
 import time
 
-from lib.helper.init import init
+from lib.utils.init import init
 from train_config import config
 
 

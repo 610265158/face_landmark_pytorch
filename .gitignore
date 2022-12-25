@@ -1,0 +1,6 @@
+*.pyc
+*.onnx
+*.pth
+*.csv
+*.log
+*.__pycache__
