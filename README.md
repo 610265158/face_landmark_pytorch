@@ -1,3 +1,4 @@
+## Note: This code is not maintained. Please refer to Peppa_Pig_Face_Landmark, The TRAIN subdir.There is better model.
 # face_landmark
 A simple face aligment method, based on pytorch
 
